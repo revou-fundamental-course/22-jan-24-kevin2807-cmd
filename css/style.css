@@ -213,4 +213,100 @@ aside{
     justify-content: center;
 }
 
+.our-package {
+    margin-top: 5em;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.catalog-1,
+.catalog-2,
+.catalog-3,
+.catalog-4,
+.catalog-5,
+.catalog-6 {
+    width: 400px;
+
+    display: flex;
+}
+
+.package-1{
+    display: flex;
+    justify-content: space-between;
+}
+.package-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.catalog1-img{
+    width: 100px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url('assets/freshvegetables.jpg');
+}
+
+.catalog4-img
+{
+    width: 100px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.catalog2-img{
+    width: 145px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.catalog5-img {
+    width: 115px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.catalog3-img{
+    width: 175px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.catalog6-img {
+    width: 145px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.description-ctlg1,
+.description-ctlg2,
+.description-ctlg3,
+.description-ctlg4,
+.description-ctlg5,
+.description-ctlg6
+{
+    margin-left: 2em;
+    padding-top: 0;
+
+}
+
+.sub-desc {
+    color: grey;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #A11F21;
+    color: white;
+}
+
 

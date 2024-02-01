@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <div class="navbar-container">
@@ -17,9 +18,9 @@
 
         <nav class="nav-list">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Our Package</a></li>
-                <li><a href="#">Call Us</a></li>
+                <li><a href="#id-content">Home</a></li>
+                <li><a href="#package-id">Our Package</a></li>
+                <li><a href="#form-id">Call Us</a></li>
             </ul>
         </nav>
     </div>
@@ -34,9 +35,13 @@
     <main>
         <div class="content-parent">
             <div class="content">
-                <div class="content-image">
+                <div class="content-image" id="id-content">
                     <div class="img">
-                        <img src="assets/makanan.jpeg" alt="makanan">
+                        <img class="java-image" src="assets/makanan.jpeg" alt="makanan">
+                        <img class="java-image" src="assets/makanan2.jpg" alt="makanan">
+                        <img class="java-image" src="assets/makanan3.jpg" alt="makanan">
+                        <button onclick="plusDivs(-1)">Previous</button>
+                        <button onclick="plusDivs(1)">Next</button>
                         <p><i>"Setiap hari beli sayur buah yang segar disini"</i></p>
                     </div>
                     
@@ -50,7 +55,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-form">
+                <div class="content-form" id="form-id">
                     <div class="little-content">    
                         <div class="form-title">
                             <h3><strong>Contact Us</strong></h3>
@@ -102,15 +107,71 @@
                 <h1>Our Package</h1>
             </aside>
 
-            <div class="our-package">
+            <div class="our-package" id="package-id">
                 <div class="package-1">
-
+                    <div class="catalog-1">
+                        <div class="catalog1-img" ></div>
+                        <div class="description-ctlg1">
+                            <h3><strong>Fresh Vegetable</strong></h3>
+                            <div class="sub-desc">
+                                <p>sayuran segar langsung dari sumber pertanian terbaik.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-2">
+                        <div class="catalog2-img"></div>
+                        <div class="description-ctlg2">
+                            <h3>Fresh Fruit</h3>
+                            <div class="sub-desc">
+                                <p>Buah dengan kualitas terbaik dari local atau import dan harga yang menarik.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-3">
+                        <div class="catalog3-img"></div>
+                        <div class="description-ctlg3">
+                            <h3>Instant Delivery</h3>
+                            <div class="sub-desc">
+                                <p>Dikirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="package-2">
-                    
+                    <div class="catalog-4">
+                        <div class="catalog4-img"></div>
+                        <div class="description-ctlg4">
+                            <h3>Kitchen Ingredients</h3>
+                            <div class="sub-desc">
+                                <p>Bumbu dapur lengkap untuk keperluan masak kamu.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-5">
+                        <div class="catalog5-img"></div>
+                        <div class="description-ctlg5">
+                            <h3>Kitchen set</h3>
+                            <div class="sub-desc">
+                                <p>Segala jenis alat masak untuk membantu kamu memasak.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-6">
+                        <div class="catalog6-img"></div>
+                        <div class="description-ctlg6">
+                            <h3>Bunding set</h3>
+                            <div class="sub-desc">
+                                <p>Bingung masak apa? sudah tersedia paket untuk kamu masak di dapur mu.</p>
+                            <div class="sub-desc">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <footer>
+      <p>Belajar Dasar Pemrograman Web &#169; 2023, Fundamental course RevoU</p>
+    </footer>
 </body>
 </html>
